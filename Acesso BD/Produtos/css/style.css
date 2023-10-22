@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button {
+    font-family:'Gill Sans';
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.pf{
+    font-family:'Gill Sans';
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav_links{
+    list-style: none;
+    font-family: 'Times New Roman';
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0091bde5;
+
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(126, 5, 196, 0.685);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(219, 205, 3, 0.836)
+}
+
+html {
+    height: 100%;
+    background: linear-gradient(to top, #f8f69f, #bab986, #000039);
+    font-family: 'Dosis', sans-serif ;
+    font-display: swap;
+    justify-content: center;
+}
