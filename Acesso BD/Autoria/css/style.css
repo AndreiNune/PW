@@ -72,12 +72,19 @@ nav{
     animation: glow 1s ease-in-out infinite alternate;
     color: whitesmoke;
 }
+h1{
+    color: white;
+}
 
 .subtitle{
-    font-size: 70px;
     font-family: horizon_outlined;
+    font-size: 20px;
     animation: glow 1s ease-in-out infinite alternate;
     color: whitesmoke;
+}
+
+.position{
+    
 }
 
 .logo{
