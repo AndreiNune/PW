@@ -107,6 +107,7 @@ nav{
     left: 0;
     z-index: 1;
     right: 100%;
+
 }
 
 .nav_links .links-item{
@@ -127,7 +128,7 @@ nav{
 }
 
 .nav_links li a:hover {
-    color: #0088a9;
+    color: #000000;
 
 }
 
@@ -148,7 +149,6 @@ html {
     height: 100%;
     background-color: rgb(121, 121, 121);
     font-family: 'Dosis', sans-serif ;
-    font-display: swap;
     justify-content: center;
 }
 
