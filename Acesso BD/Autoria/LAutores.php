@@ -35,8 +35,10 @@
     } 
         ?> 
         </div>
+        
         <br>
         <br>
+
         <div class="bts">
             <button><a href = "menu.html"> Menu </a></button>
             <button><a href = "EAutores.php"> Excluir </a></button>
