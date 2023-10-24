@@ -37,10 +37,12 @@
         </div>
         <br>
         <br>
-        <center>
-
+        <div class="bts">
             <button><a href = "menu.html"> Menu </a></button>
             <button><a href = "EAutores.php"> Excluir </a></button>
             <button><a href = "CAutores.php">  Ir ao Cadastro </a></button>
+        </div>
+
+            
 </body>
 </html>
