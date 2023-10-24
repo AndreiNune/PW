@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-    <title>Cadastrar</title>
+    <title>Excluir</title>
     <link rel="stylesheet" href="css/style.css" >
 </head>
 <body>
@@ -12,6 +12,7 @@
                 <il class="nav_links li"><button><a href="./cadastrar.php">Cadastrar</a></button></il>
                 <il class="nav_links li"><button><a href="./pesquisar.php">Pesquisar</a></button></il>
                 <il class="nav_links li"><button><a href="./listar.php">Listar</a></button></il>
+                <il class="nav_links li"><button><a href="./alterar.php">Alterar</a></button></il>
             </ul>
         </nav>
     </header>

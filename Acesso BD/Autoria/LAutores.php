@@ -2,7 +2,7 @@
 
 <head>
     <title>Listar</title>
-    <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" href="css/listar.css" >
 </head>
 <body>
 

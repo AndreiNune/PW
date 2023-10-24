@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-    <title>Listar</title>
+    <title>Alterar</title>
     <link rel="stylesheet" href="css/style.css" >
 </head>
 <body>
@@ -16,38 +16,26 @@
                 <il class="nav_links li"><button><a href="./alterar.php">Alterar</a></button></il>
             </ul>
         </nav>
-    </header> 
+    </header>
 
-       <div class="pf">
+    <form name= "cliente" method = "POST" action = "alterar2.php">
+        <fieldset>
+            <legend>
+                <b>Digite o ID do produto que você deseja alterar:</b>
+            </legend>
 
-    <?php
-    
-    include_once 'Produto.php';
-
-    $p = new Produto();
-
-    $pro_bd=$p->listar();
-
-    ?>
-<br> Id &nbsp;&nbsp;&nbsp;&nbsp; Nome &nbsp;&nbsp;&nbsp;&nbsp;Estoque</br>
-
-    <?php
-
-    foreach($pro_bd as $pro_mostrar) {
+            <br>
+            <p> ID: <input name="txtid" type = "text" size = "12" maxlength="5" placeholder = "ID do Produto">
         
-        ?>
-        <br><br>
-        <b> <?php echo $pro_mostrar[0]; ?></b>&nbsp;&nbsp;&nbsp;&nbsp;
-            <?php echo $pro_mostrar[1]; ?>    &nbsp;&nbsp;&nbsp;&nbsp;
-            <?php echo $pro_mostrar[2]; ?>
-        <?php
+            <br>
+        
+            <legend> <b> Opções: </b> </legend>
+            <br>
+            <input name="btnenviar" type = "submit" value = "Alterar"> &nbsp;&nbsp;
+            <input name="limpar" type = "reset" value = "Limpar">
+        </fieldset>
+    </form>
+    <br>
 
-    } 
-        ?> 
-        </div>
-        <br>
-        <center>
-
-            <button><a href = "menu.html">  Voltar </a></button>
 </body>
-</html>
+    </html>

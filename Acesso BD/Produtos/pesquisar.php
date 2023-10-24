@@ -12,7 +12,7 @@
                 <il class="nav_links li"><button><a href="./cadastrar.php">Cadastrar</a></button></il>
                 <il class="nav_links li"><button><a href="./excluir.php">Excluir</a></button></il>
                 <il class="nav_links li"><button><a href="./listar.php">Listar</a></button></il>
-                <il class="nav_links li"><button><a href="#alterar">Alterar</a></button></il>
+                <il class="nav_links li"><button><a href="./alterar.php">Alterar</a></button></il>
             </ul>
         </nav>
     </header>
@@ -22,9 +22,9 @@
     <form name="cliente" method="POST" action="">
         <fieldset id="a">
             <legend>
-                <b> Informe o ID do produto desejado: </b>
+                <b> Informe o nome do produto desejado: </b>
             </legend>
-            <p>ID: <input name="txtid" type="text" size="6" placeholder="ID do produto">
+            <p>Nome: <input name="txtnome" type="text" size="20" placeholder="Nome do produto">
             <br><br><center>
                 <input type="submit" name="btnenviar" value="Pesquisar">
                 <input type="submit" name="limpar" type="reset" value="Limpar">
@@ -41,7 +41,7 @@
     {
         include_once 'Produto.php';
         $p = new Produto();
-        $p ->setId($txtid);
+        $p ->setNome($txtnome);
         $pro_bd=$p->pesquisar();
         foreach ($pro_bd as $pro_mostrar) 
         {
