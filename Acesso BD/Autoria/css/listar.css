@@ -1,4 +1,9 @@
 
+.alal{
+    display: flex;
+    
+}
+
 .pfl{font-family:'Gill Sans';
     font-weight: 500;
     font-size: 16px;
@@ -6,8 +11,8 @@
     text-decoration: none;
     text-align: center;
     display: inline;
-    align-items: center; 
-    width: 500px;
+     
+    width: 100%;
     border-color: black;
 }
 
