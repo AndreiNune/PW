@@ -6,7 +6,9 @@
 </head>
 <body>
 
-       <div class="pf">
+<div class="alal">
+
+       <div class="pfl">
 
     <?php
     
@@ -35,12 +37,17 @@
     } 
         ?> 
         </div>
-        <br>
-        <br>
-        <center>
+        </div>
 
+        <br>
+        <br>
+
+        <div class="bts">
             <button><a href = "menu.html"> Menu </a></button>
             <button><a href = "EAutores.php"> Excluir </a></button>
             <button><a href = "CAutores.php">  Ir ao Cadastro </a></button>
+        </div>
+
+            
 </body>
 </html>
