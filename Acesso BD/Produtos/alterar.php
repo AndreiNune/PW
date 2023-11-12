@@ -20,27 +20,31 @@
     </div>
 
 
-    <h1>Alterar Dados</h1>
-
-
-    <form name= "cliente" method = "POST" action = "alterar2.php">
+    <div class="wrapper">
         <div class="formulario">
-            <legend>
+        <h1>Alterar Dados</h1>
+
+        <form name= "cliente" method = "POST" action = "alterar2.php">
+        
+        
                 <b>Digite o ID do produto que você deseja alterar:</b>
-            </legend>
+
 
             <br>
             <p> ID: <input name="txtid" type = "text" size = "12" maxlength="5" placeholder = "ID do Produto">
-        
+    
             <br>
-        
+    
             <legend> <b> Opções: </b> </legend>
             <br>
             <input name="btnenviar" type = "submit" value = "Alterar"> &nbsp;&nbsp;
             <input name="limpar" type = "reset" value = "Limpar">
-        </div>
-    </form>
-    <br>
+        
+        </form>
+    </div>
+</div>
+
+    
 
 </body>
 </html>

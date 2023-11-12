@@ -18,10 +18,13 @@
         </nav>
     </div>
 <div class="wrapper">
+
     <div class="formulario">
-        <form name= "cliente" method = "POST" action = "">
         
-            
+        <h1>Cadastrar-se</h1>
+
+        <form name= "cliente" method = "POST" action = "">
+                
                 <h3>Dados do Produto</h3>
             
                 <br>

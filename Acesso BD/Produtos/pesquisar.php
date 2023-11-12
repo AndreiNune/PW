@@ -21,7 +21,7 @@
 
     <div class="formulario">
 
-            <h1> Pesquisa de Produtos Cadastrados </h1> 
+            <h1> Pesquisa de Produtos </h1> 
     
         <form name="cliente" method="POST" action="">
             

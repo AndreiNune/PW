@@ -19,6 +19,7 @@
     <div class="wrapper">
 
         <div class="formulario">
+        <h1>Excluir produtos</h1>
 
         <form name= "cliente" method = "POST" action = "">
         
@@ -29,12 +30,9 @@
                     <input name="limpar" type = "reset" value = "Limpar">
             
                     <br>
-                    <br>
 
         </form>
 
-    
-        
             <b> Resultado: </b>
         
 

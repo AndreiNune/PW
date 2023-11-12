@@ -18,36 +18,43 @@
         </nav>
     </div> 
 
-       <div class="pf">
 
-    <?php
-    
-    include_once 'Produto.php';
+<div class="wrapper">
+    <div class="formulario"> 
+        <div class="pf">
 
-    $p = new Produto();
+            <?php
 
-    $pro_bd=$p->listar();
+            include_once 'Produto.php';
 
-    ?>
-<br> Id &nbsp;&nbsp;&nbsp;&nbsp; Nome &nbsp;&nbsp;&nbsp;&nbsp;Estoque</br>
+            $p = new Produto();
 
-    <?php
+            $pro_bd=$p->listar();
 
-    foreach($pro_bd as $pro_mostrar) {
-        
-        ?>
-        <br><br>
-        <b> <?php echo $pro_mostrar[0]; ?></b>&nbsp;&nbsp;&nbsp;&nbsp;
-            <?php echo $pro_mostrar[1]; ?>    &nbsp;&nbsp;&nbsp;&nbsp;
-            <?php echo $pro_mostrar[2]; ?>
-        <?php
+            ?>
+            <br> Id &nbsp;&nbsp;&nbsp;&nbsp; Nome &nbsp;&nbsp;&nbsp;&nbsp;Estoque</br>
 
-    } 
-        ?> 
+            <?php
+
+            foreach($pro_bd as $pro_mostrar) {
+                
+                ?>
+                <br><br>
+                <b> <?php echo $pro_mostrar[0]; ?></b>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <?php echo $pro_mostrar[1]; ?>    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <?php echo $pro_mostrar[2]; ?>
+                <?php
+
+            } 
+            ?>
+            
+            
         </div>
-        <br>
-        <center>
+        <button><a href = "menu.html">  Voltar </a></button>
+    </div>
+</div>
+       
 
-            <button><a href = "menu.html">  Voltar </a></button>
+            
 </body>
 </html>
