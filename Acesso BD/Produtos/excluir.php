@@ -16,26 +16,27 @@
             </ul>
         </nav>
     </div>
+    <div class="wrapper">
 
-    <form name= "cliente" method = "POST" action = "">
-        <fieldset id="a">
-            <legend>
-                <b> Informe o ID do porduto desejado: </b>
-                <p> Id: <input name = "txtid" type = "text" size = "20" maxlength = "5" placeholder = "id  do Produto:">
-                <br><br>
-                <center>
-                <input name="btnenviar" type = "submit" value = "Excluir"> &nbsp;&nbsp;
-                <input name="limpar" type = "reset" value = "Limpar">
-            </legend>
-            <br>
-        </fieldset>
-        <br>
-    </form>
+        <div class="formulario">
 
-    <fieldset>
-        <legend>
+        <form name= "cliente" method = "POST" action = "">
+        
+                    <b> Informe o ID do porduto desejado: </b>
+                    <p> Id: <input name = "txtid" type = "text" size = "20" maxlength = "5" placeholder = "id  do Produto:">
+                    <br><br>
+                    <input name="btnenviar" type = "submit" value = "Excluir"> &nbsp;&nbsp;
+                    <input name="limpar" type = "reset" value = "Limpar">
+            
+                    <br>
+                    <br>
+
+        </form>
+
+    
+        
             <b> Resultado: </b>
-        </legend>
+        
 
         <?php
             extract($_POST, EXTR_OVERWRITE);
@@ -49,8 +50,10 @@
             }
 
         ?>
+        </div>
 
-    </fieldset>
+    </div>
+    
 
 </body>
 </html>

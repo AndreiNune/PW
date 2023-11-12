@@ -17,9 +17,11 @@
         </nav>
     </div>
 
-    <h1> Pesquisa de Produtos Cadastrados </h1> 
+<div class="wrapper">   
 
     <div class="formulario">
+
+            <h1> Pesquisa de Produtos Cadastrados </h1> 
     
         <form name="cliente" method="POST" action="">
             
@@ -54,8 +56,12 @@
     }
  ?>
             </div>
+
         </form>
+
     </div>
+    
+</div> 
 
 </body>
 </html>

@@ -17,25 +17,30 @@
             </ul>
         </nav>
     </div>
+<div class="wrapper">
+    <div class="formulario">
+        <form name= "cliente" method = "POST" action = "">
+        
+            
+                <h3>Dados do Produto</h3>
+            
+                <br>
+                <p> Nome: <input name="txtnome" type = "text" size = "40" maxlength="40" placeholder = "Nome do Produto">
+                <p> Estoque: <input name="txtestoq" type = "text" size = "10" placeholder = "0"></p>
 
-    <form name= "cliente" method = "POST" action = "">
-        <fieldset id="a">
-            <legend>
-                <b>Dados do Produto</b>
-            </legend>
+            
             <br>
-            <p> Nome: <input name="txtnome" type = "text" size = "40" maxlength="40" placeholder = "Nome do Produto">
-            <p> Estoque: <input name="txtestoq" type = "text" size = "10" placeholder = "0"></p>
+        
+                <legend> <b> Opções: </b> </legend>
+            <br>
+                <input name="btnenviar" type = "submit" value = "Cadastrar"> &nbsp;&nbsp;
+                <input name="limpar" type = "reset" value = "Limpar">
+        </form>
+    </div>
+    <button><a href = "menu.html">  Voltar </a></button>
+</div>
 
-        </fieldset>
-        <br>
-        <fieldset id="b">
-            <legend> <b> Opções: </b> </legend>
-            <br>
-            <input name="btnenviar" type = "submit" value = "Cadastrar"> &nbsp;&nbsp;
-            <input name="limpar" type = "reset" value = "Limpar">
-        </fieldset>
-</form>
+    
     <?php
     extract($_POST, EXTR_OVERWRITE);
     if(isset($btnenviar))
@@ -53,9 +58,8 @@
     ?>
 
     <br>
-    <center>
 
-        <button><a href = "menu.html">  Voltar </a></button>
+        
 
 </body>
-    </html>
+</html>
