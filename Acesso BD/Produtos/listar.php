@@ -27,7 +27,7 @@
 
             <?php
 
-            include_once 'Produto.php';
+            include_once '../modelagem e conexção/Produto.php';
 
             $p = new Produto();
 

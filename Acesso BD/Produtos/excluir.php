@@ -40,7 +40,7 @@
             extract($_POST, EXTR_OVERWRITE);
             if (isset($btnenviar)) 
             {
-                include_once 'Produto.php';
+                include_once '../modelagem e conexção/Produto.php';
                 $p = new Produto();
                 $p ->setId($txtid);
                 echo "<h3>" . $p->excluir() . "<h3>"; //  Chama método -- o $p é o parâmetro enviado
