@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="./css/login.css">
 </head>
 <body>
-    
+    <div class="wrapper">
+        <div class="formulario">
+            
+        </div>
+    </div>
 </body>
 </html>
