@@ -5,7 +5,8 @@
     <link rel="stylesheet" href="css/style.css" >
 </head>
 <body>
-    <header>
+
+    <div class="navstyle">
         <nav>
             <ul class="nav__links">
             <il class="nav_links li"><button><a href="menu.html">Principal</a></button></il>
@@ -16,10 +17,14 @@
                 <il class="nav_links li"><button><a href="./alterar.php">Alterar</a></button></il>
             </ul>
         </nav>
-    </header>
+    </div>
+
+
+    <h1>Alterar Dados</h1>
+
 
     <form name= "cliente" method = "POST" action = "alterar2.php">
-        <fieldset>
+        <div class="formulario">
             <legend>
                 <b>Digite o ID do produto que você deseja alterar:</b>
             </legend>
@@ -33,9 +38,9 @@
             <br>
             <input name="btnenviar" type = "submit" value = "Alterar"> &nbsp;&nbsp;
             <input name="limpar" type = "reset" value = "Limpar">
-        </fieldset>
+        </div>
     </form>
     <br>
 
 </body>
-    </html>
+</html>

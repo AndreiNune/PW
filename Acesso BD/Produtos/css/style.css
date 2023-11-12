@@ -21,7 +21,7 @@ li, a, button {
     text-align: center;
 }
 
-header{
+.navstyle{
     display: flex;
     justify-content: flex;
     align-items: center;
@@ -52,6 +52,23 @@ header{
 
 }
 
+.formulario input{
+    padding: 9px 25px;
+    background-color: rgba(1, 1, 2, 0.685);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+.formulario .result{
+    border: black 1px solid;
+    background-color: #000039;
+    color: whitesmoke;
+    width: 30%;
+    border-radius: 20px;
+}
+
 button{
     padding: 9px 25px;
     background-color: rgba(126, 5, 196, 0.685);
@@ -65,10 +82,15 @@ button:hover{
     background-color: rgba(219, 205, 3, 0.836)
 }
 
-html {
+body{
     height: 100%;
     background: linear-gradient(to top, #f8f69f, #bab986, #000039);
     font-family: 'Dosis', sans-serif ;
     font-display: swap;
     justify-content: center;
+}
+
+html{
+    height: 100%;
+    color: white;
 }

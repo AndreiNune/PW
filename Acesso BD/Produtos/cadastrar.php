@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="css/style.css" >
 </head>
 <body>
-    <header>
+    <div class="navstyle">
         <nav>
             <ul class="nav__links">
             <il class="nav_links li"><button><a href="menu.html">Principal</a></button></il>
@@ -16,7 +16,7 @@
                 <il class="nav_links li"><button><a href="./alterar.php">Alterar</a></button></il>
             </ul>
         </nav>
-    </header>
+    </div>
 
     <form name= "cliente" method = "POST" action = "">
         <fieldset id="a">

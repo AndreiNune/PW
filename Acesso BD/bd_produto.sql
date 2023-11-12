@@ -18,10 +18,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Banco de dados: `exemplocurso`
+-- Banco de dados: `bd_produto`
 --
-CREATE DATABASE `exemplocurso`;
-use `exemplocurso`;
+CREATE DATABASE `bd_produto`;
+use `bd_produto`;
 -- --------------------------------------------------------
 
 --
@@ -51,11 +51,12 @@ INSERT INTO `produtos` (`id`, `nome`, `estoque`) VALUES
 
 -- Tabela do Usuário --
 
-CREATE TABLE 'usuario'(
-  'Login' varchar(12)NOT NULL,
-  'Senha' int(11) NOT NULL
-)
-INSERT INTO 'usuario' (`Login`, `Senha`) VALUES ('kazuy', 123), ('adam', 321);
+CREATE TABLE `usuario` (
+  `Login` varchar(12) NOT NULL,
+  `Senha` int(11) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='Tabela usuario do banco de  produtos.';
+
+INSERT INTO `usuario` (`Login`, `Senha`) VALUES ('kazuy', 123), ('adam', 321);
 
 --
 -- Índices para tabela `produtos`
