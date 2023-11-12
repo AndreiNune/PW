@@ -49,6 +49,14 @@ INSERT INTO `produtos` (`id`, `nome`, `estoque`) VALUES
 -- Índices para tabelas despejadas
 --
 
+-- Tabela do Usuário --
+
+CREATE TABLE 'usuario'(
+  'Login' varchar(12)NOT NULL,
+  'Senha' int(11) NOT NULL
+)
+INSERT INTO 'usuario' (`Login`, `Senha`) VALUES ('kazuy', 123), ('adam', 321);
+
 --
 -- Índices para tabela `produtos`
 --

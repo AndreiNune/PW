@@ -7,7 +7,7 @@ class Conectar extends PDO {
     private $host = "localhost";
     private $usuario = "root";
     private $senha = "";
-    private $db = "exemplocurso";
+    private $db = "bd_produto";
     
 
     public function __construct()

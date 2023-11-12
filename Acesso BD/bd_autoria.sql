@@ -30,6 +30,16 @@ use bd_autoria;
 -- Estrutura para tabela `autor`
 --
 
+-- User Table --
+
+CREATE TABLE 'usuario'(
+  'Login' varchar(12)NOT NULL,
+  'Senha' int(11) NOT NULL
+)
+INSERT INTO 'usuario' (`Login`, `Senha`) VALUES ('kazuy', 123), ('adam', 321);
+
+-- End user table --
+
 CREATE TABLE `autor` (
   `Cod_autor` int(11) NOT NULL,
   `NomeAutor` varchar(25) NOT NULL,
