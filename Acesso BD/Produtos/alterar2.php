@@ -18,18 +18,19 @@
         </nav>
     </div>
 
-    
-        <fieldset>
-        <legend><b> Alterar </b></legend>
-        
-            
-            <?php
+    <div class="wrapper">
+
+        <div class="formulario">
+        <h1>Alteração de Dados</h1>
+        <p>Reescreva o campo que deseja mudar:</p>
+        <?php
                 $txtid=$_POST["txtid"];
                 include_once 'Produto.php';
                 $p = new Produto();
                 $p->setId($txtid);
                 $pro_bd=$p->alterar();
             ?>
+
             <br>
             <form name= "cliente2" method = "POST" action = "">
             
@@ -52,7 +53,7 @@
                 }
             ?>
             </form>
-        </fieldset>
+        
         <?php
             extract($_POST, EXTR_OVERWRITE);
             if (isset($btnalterar)) {
@@ -67,6 +68,9 @@
         ?>
     
     <br>
+        </div>
+    </div>
+        
 
 </body>
     </html>
