@@ -51,7 +51,7 @@
         $Nome = $_POST["txtnome"];
         $Estoque = $_POST["txtestoq"];
 
-        include_once '../modelagem e conexção/Produto.php';
+        include_once './modelagem e conexção/Produto.php';
         $pro=new Produto();
         $pro->setNome($txtnome);
         $pro->setEstoque($txtestoq);

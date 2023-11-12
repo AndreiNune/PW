@@ -25,7 +25,7 @@
         <p>Reescreva o campo que deseja mudar:</p>
         <?php
                 $txtid=$_POST["txtid"];
-                include_once '../modelagem e conexção/Produto.php';
+                include_once './modelagem e conexção/Produto.php';
                 $p = new Produto();
                 $p->setId($txtid);
                 $pro_bd=$p->alterar();
@@ -57,7 +57,7 @@
         <?php
             extract($_POST, EXTR_OVERWRITE);
             if (isset($btnalterar)) {
-                include_once '../modelagem e conexção/Produto.php';
+                include_once './modelagem e conexção/Produto.php';
                 $pro = new Produto();
                 $pro->setNome($txtnome);
                 $pro->setEstoque($txtestoq);
