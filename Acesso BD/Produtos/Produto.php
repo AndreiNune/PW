@@ -78,7 +78,7 @@ function excluir()
 {
     try {
         $this-> conn = new Conectar();
-        $sql = $this->conn->prepare("delete from produtos where  id = ?");
+        $sql = $this->conn->prepare("delete from produtos where id = ?");
         @$sql->bindParam(1, $this->getId(), PDO::PARAM_STR);
         if($sql->execute() == 1)
         {
