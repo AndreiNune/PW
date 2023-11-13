@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Anonymous_Pro-Regular.ttf;
+    src: url([caminho]);
+ }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button {
+    font-family:'Gill Sans';
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.pf{
+    font-family:'Gill Sans';
+    font-weight: 500;
+    font-size: 16px;
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navstyle{
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+    padding: 30px 10%;
+    border-bottom: black 2px solid;
+    background-color: white;
+    height: 8%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav_links{
+    list-style: none;
+    font-family: 'Times New Roman';
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0091bde5;
+
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+    justify-content: center;
+}
+    
+.formulario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 75%;
+    width: 40%;
+    border: black 1px solid;
+    background-color: #000039;
+    border-radius: 20px;
+    justify-content: space-evenly;
+}
+
+.formulario input{
+    padding: 9px 25px;
+    background-color: rgba(1, 1, 2, 0.685);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+.formulario .result{
+    border: black 1px solid;
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: blueviolet;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(3, 17, 219, 0.836)
+}
+
+body{
+    height: 100%;
+    background-image: url("../imgs/Produtos.png");
+    background-color: white;
+    font-family: 'Dosis', sans-serif ;
+    font-display: swap;
+}
+
+html{
+    height: 100%;
+    color: white;
+}
