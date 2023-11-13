@@ -9,6 +9,9 @@
 <body>
     <div class="wrapper">
         <div class="formulario">
+
+            <form method="POST"action="">
+
             <h1>Login</h1>
             <p>Digite os dados do seu Login:</p>
 
@@ -17,8 +20,11 @@
 
             <input type="submit" name="btnenviar" value="Fazer Login">
 
+        </form>
+
         </div>
     </div>
+
     <?php
         extract($_POST, EXTR_OVERWRITE);
         if (isset($btnenviar)) 
