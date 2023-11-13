@@ -12,7 +12,7 @@
 
         <?php
 
-    include_once 'Autoria.php';
+    include_once './model&conection/Autoria.php';
 
     $a = new Autoria();
 

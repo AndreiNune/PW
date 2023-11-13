@@ -40,7 +40,7 @@
             extract($_POST, EXTR_OVERWRITE);
             if (isset($btnenviar)) 
             {
-                include_once 'Autores.php';
+                include_once './model&conection/Autores.php';
                 $aut = new Autor();
                 $aut ->setCod_autor($txtcod);
                 echo "<h3>" . $aut->excluir() . "<h3>"; //  Chama método -- o $p é o parâmetro enviado

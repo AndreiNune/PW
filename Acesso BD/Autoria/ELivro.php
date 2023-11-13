@@ -40,7 +40,7 @@
             extract($_POST, EXTR_OVERWRITE);
             if (isset($btnenviar)) 
             {
-                include_once 'Livro.php';
+                include_once './model&conection/Livro.php';
                 $liv = new Livro();
                 $liv ->setCod_livro($txtcod);
                 echo "<h3>" . $liv->excluir() . "<h3>"; //  Chama método -- o $p é o parâmetro enviado

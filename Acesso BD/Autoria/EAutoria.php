@@ -44,7 +44,7 @@
             extract($_POST, EXTR_OVERWRITE);
             if (isset($btnenviar)) 
             {
-                include_once 'Autoria.php';
+                include_once './model&conection/Autoria.php';
                 $aut = new Autoria();
                 $aut ->setCod_autor($txtcod);
                 $aut ->setCod_livro($txtcodl);

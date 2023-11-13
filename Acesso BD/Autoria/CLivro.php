@@ -48,7 +48,7 @@
         $Idioma = $_POST["txtidioma"];
         $Qtdepag = $_POST["txtqtde"];
 
-        include_once 'Livro.php';
+        include_once './model&conection/Livro.php';
 
         $liv=new Livro();
 

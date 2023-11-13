@@ -37,7 +37,7 @@
     extract($_POST, EXTR_OVERWRITE);
     if (isset($btnenviar)) 
     {
-        include_once 'Livro.php';
+        include_once './model&conection/Livro.php';
         $l = new Livro();
         $l ->setTítulo($txtnome);
         $liv_bd=$l->pesquisar();

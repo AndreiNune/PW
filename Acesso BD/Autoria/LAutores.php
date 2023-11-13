@@ -12,7 +12,7 @@
 
     <?php
     
-    include_once 'Autores.php';
+    include_once './model&conection/Autores.php';
 
     $a = new Autor();
 

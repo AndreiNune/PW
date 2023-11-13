@@ -40,7 +40,7 @@
         $Editora = $_POST["txtedit"];
         
 
-        include_once 'Autoria.php';
+        include_once './model&conection/Autoria.php';
 
         $pro=new Autoria();
         

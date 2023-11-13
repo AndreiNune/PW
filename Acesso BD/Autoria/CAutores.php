@@ -40,7 +40,7 @@
         $Email = $_POST["txtemail"];
         $Nasc = $_POST["txtnasc"];
 
-        include_once 'Autores.php';
+        include_once './model&conection/Autores.php';
 
         $pro=new Autor();
         

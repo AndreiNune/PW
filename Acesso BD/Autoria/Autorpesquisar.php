@@ -37,7 +37,7 @@
     extract($_POST, EXTR_OVERWRITE);
     if (isset($btnenviar)) 
     {
-        include_once 'Autores.php';
+        include_once './model&conection/Autores.php';
         $a = new Autor();
         $a ->setNomeAutor($txtnome);
         $ato_bd=$a->pesquisar();
