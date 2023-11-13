@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-    <title>Cadastrar</title>
+    <title>Pesquisar</title>
     <link rel="stylesheet" href="css/style.css" >
 </head>
 <body>
@@ -27,14 +27,16 @@
             
             <b> Informe o nome do produto desejado: </b>
             <p>Nome: <input name="txtnome" type="text" size="20" placeholder="Nome do produto">
-            <br><br><center>
+            <br><br>
                 <input type="submit" name="btnenviar" value="Pesquisar">
                 <input type="submit" name="limpar" type="reset" value="Limpar">
                 <br>
                 <br>
 
-    <div class="result">
         <h3>Resultado:</h3>
+
+        <div class="result">
+        
         <br>
         <?php
         extract($_POST, EXTR_OVERWRITE);
