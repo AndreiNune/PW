@@ -8,11 +8,12 @@
     <div class="navstyle">
         <nav>
             <ul class="nav__links">
-            <il class="nav_links li"><button><a href="menu.php">Principal</a></button></il>
-                <il class="nav_links li"><button><a href="./cadastrar.php">Cadastrar</a></button></il>
-                <il class="nav_links li"><button><a href="./pesquisar.php">Pesquisar</a></button></il>
-                <il class="nav_links li"><button><a href="./listar.php">Listar</a></button></il>
-                <il class="nav_links li"><button><a href="./alterar.php">Alterar</a></button></il>
+            <il class="nav_links li"><a href="menu.php"><button>Principal</button></a></il>
+            <il class="nav_links li"><a href="./cadastrar.php"><button>Cadastrar</button></a></il>
+                <il class="nav_links li"><a href="./excluir.php"><button>Excluir</button></a></il>
+                <il class="nav_links li"><a href="./pesquisar.php"><button>Pesquisar</button></a></il>
+                <il class="nav_links li"><a href="./listar.php"><button>Listar</button></a></il>
+                <il class="nav_links li"><a href="./alterar.php"><button>Alterar</button></a></il>
             </ul>
         </nav>
     </div>

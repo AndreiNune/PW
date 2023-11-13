@@ -23,8 +23,8 @@ li, a, button {
     font-family: AnonymousPro;
 }
 
-.pf{
-    font-family:'Gill Sans';
+.wrapper .formulario .pf{
+    font-family: AnonymousPro;
     font-weight: 500;
     font-size: 16px;
     color: whitesmoke;
@@ -138,6 +138,7 @@ li, a, button {
     cursor: pointer;
     transition: all 0.3s ease 0s;
     color: white;
+    font-family: AnonymousPro;
 }
 
 .formulario .result{
