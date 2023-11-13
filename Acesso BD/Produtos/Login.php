@@ -9,23 +9,25 @@
 <body>
     <div class="wrapper">
         <div class="formulario">
-
+                <h1>Login</h1>
             <form method="POST"action="">
-
-            <h1>Login</h1>
+            
             <p>Digite os dados do seu Login:</p>
+            <br><br>
 
-            Nome: <input name="txtnome" type = "text" size = "20" maxlength="20" placeholder = "Nome">
-            Senha: <input name="txtsenha" type = "text" size = "20" maxlength="20" placeholder = "Senha">
-
+            <p>Nome: <input name="txtnome" type = "text" size = "20" maxlength="20" placeholder = "Nome"></p>
+            <br>
+            <p>Senha: <input name="txtsenha" type = "text" size = "20" maxlength="20" placeholder = "Senha"></p>
+            <br>
             <input type="submit" name="btnenviar" value="Fazer Login">
 
-        </form>
+            </form>
 
         </div>
     </div>
 
     <?php
+    
         extract($_POST, EXTR_OVERWRITE);
         if (isset($btnenviar)) 
         {

@@ -32,11 +32,12 @@ use bd_autoria;
 
 -- User Table --
 
-CREATE TABLE 'usuario'(
-  'Login' varchar(12)NOT NULL,
-  'Senha' int(11) NOT NULL
-)
-INSERT INTO 'usuario' (`Login`, `Senha`) VALUES ('kazuy', 123), ('adam', 321);
+CREATE TABLE `usuario` (
+  `Login` varchar(12) NOT NULL,
+  `Senha` int(11) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='Tabela usuario do banco de  produtos.';
+
+INSERT INTO `usuario` (`Login`, `Senha`) VALUES ('kazuy', 123), ('adam', 321);
 
 -- End user table --
 
