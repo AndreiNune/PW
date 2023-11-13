@@ -17,7 +17,7 @@
 
             <p>Nome: <input name="txtnome" type = "text" size = "20" maxlength="20" placeholder = "Nome"></p>
             <br>
-            <p>Senha: <input name="txtsenha" type = "text" size = "20" maxlength="20" placeholder = "Senha"></p>
+            <p>Senha: <input name="txtsenha" type = "text" size = "20" maxlength="20" placeholder = "Senha" onkeypress="return blockw(window.event.keyCode)"></p>
             <br>
             <input type="submit" name="btnenviar" value="Fazer Login">
 
@@ -51,7 +51,7 @@
             }
             if ($existe==false) 
             {
-                header("location:loginInvalido.html");
+                header("location:loginInvalido.php");
             }
         }
         
