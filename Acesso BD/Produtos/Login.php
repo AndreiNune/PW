@@ -40,7 +40,7 @@
 
                 <br><br>
                 
-                <input type="button" name="btentrar"> <a href="menu.html">Entrar</a>
+                <input type="submit" name="btentrar"> <a href="menu.html">Entrar</a>
             <?php
             }
             if ($existe==false) 
