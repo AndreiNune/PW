@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <div class="card">
+<div class="card">
         <form action="">
 
             <div class="title">
@@ -19,10 +19,13 @@
                 <p>Dados do Login incorreto!</p>
                 <p>Verifique se o nome e a senha estão corretos!</p>
             </div>
-
+            <div class="bcard">
             <button><a href="./index.php">Voltar</a></button>
+            </div>
+            
         </form>
     </div>
+
     
 </body>
 </html>
