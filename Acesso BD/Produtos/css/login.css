@@ -1,6 +1,11 @@
 @font-face {
-    font-family: Anonymous_Pro-Regular.ttf;
-    src: url([caminho]);
+    font-family: AnonymousPro-Regular;
+    src: url(../font/Anonymous_Pro/AnonymousPro-Bold.ttf);
+ }
+
+ @font-face {
+    font-family: BebasNeue;
+    src: url(../font/Bebas_Neue/BebasNeue-Regular.ttf);
  }
 
 *{
