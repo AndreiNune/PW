@@ -9,7 +9,7 @@
     <div class="navstyle">
         <nav>
             <ul class="nav__links">
-            <il class="nav_links li"><button><a href="menu.html">Principal</a></button></il>
+            <il class="nav_links li"><button><a href="menu.php">Principal</a></button></il>
                 <il class="nav_links li"><button><a href="./cadastrar.php">Cadastrar</a></button></il>
                 <il class="nav_links li"><button><a href="./excluir.php">Excluir</a></button></il>
                 <il class="nav_links li"><button><a href="./pesquisar.php">Pesquisar</a></button></il>

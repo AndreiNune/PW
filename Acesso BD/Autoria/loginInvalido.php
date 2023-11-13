@@ -10,9 +10,16 @@
 
     <div class="card">
         <form action="">
+
             <div class="title">
-            <p>LOGIN INVÁLIDO</p>
+                <p>LOGIN INVÁLIDO</p>
             </div>
+
+            <div class="text">
+                <p>Dados do Login incorreto!</p>
+                <p>Verifique se o nome e a senha estão corretos!</p>
+            </div>
+
             <button><a href="./index.php">Voltar</a></button>
         </form>
     </div>
