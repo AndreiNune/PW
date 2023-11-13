@@ -23,11 +23,8 @@
 
             </form>
 
-        </div>
-    </div>
+            <?php
 
-    <?php
-    
         extract($_POST, EXTR_OVERWRITE);
         if (isset($btnenviar)) 
         {
@@ -44,11 +41,12 @@
                 ?>
                 <br><br>
 
-                <?php echo "Bem vindo! Usuário: " .$pro_mostrar[1]; ?>
+                <?php echo "Bem vindo! Usuário: " .$pro_mostrar[0]; ?>
 
                 <br><br>
                 
-                <input type="submit" name="btentrar"> <a href="menu.html">Entrar</a>
+                <a href="menu.html"><input type="submit" name="btentrar" value="Entrar"></a> 
+
             <?php
             }
             if ($existe==false) 
@@ -59,6 +57,9 @@
         
 
     ?>
+
+        </div>
+    </div>
 
 </body>
 </html>

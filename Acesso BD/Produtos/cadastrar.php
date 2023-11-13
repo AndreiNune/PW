@@ -28,19 +28,23 @@
                 <h3>Dados do Produto</h3>
             
                 <br>
-                <p> Nome: <input name="txtnome" type = "text" size = "40" maxlength="40" placeholder = "Nome do Produto">
+                <p> Nome: <input name="txtnome" type = "text" size = "40" maxlength="40" placeholder = "Nome do Produto"></p>
+                <br>
                 <p> Estoque: <input name="txtestoq" type = "text" size = "10" placeholder = "0"></p>
 
             
             <br>
         
-                <legend> <b> Opções: </b> </legend>
-            <br>
+                 <b> Opções: </b> 
+                <br>
+                <br>
                 <input name="btnenviar" type = "submit" value = "Cadastrar"> &nbsp;&nbsp;
                 <input name="limpar" type = "reset" value = "Limpar">
         </form>
     </div>
-    <button><a href = "menu.html">  Voltar </a></button>
+    <br>
+
+    <button><a href = "menu.html">  Voltar ao menu</a></button>
 </div>
 
     

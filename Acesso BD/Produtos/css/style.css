@@ -1,3 +1,13 @@
+@font-face {
+    font-family: AnonymousPro;
+    src: url(../font/Anonymous_Pro/AnonymousPro-Bold.ttf);
+ }
+
+ @font-face {
+    font-family: BebasNeue;
+    src: url(../font/Bebas_Neue/BebasNeue-Regular.ttf);
+ }
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -10,6 +20,7 @@ li, a, button {
     font-size: 16px;
     color: #edf0f1;
     text-decoration: none;
+    font-family: AnonymousPro;
 }
 
 .pf{
@@ -61,6 +72,22 @@ li, a, button {
     height: 90%;
     justify-content: center;
 }
+
+.wrapper .formulario h1{
+    font-family: BebasNeue;
+    font-size: 100px;
+    color: white;
+}
+
+.wrapper .formulario p{
+    font-family: AnonymousPro;
+    color: white;
+}
+
+.wrapper .formulario h3{
+    font-family: AnonymousPro;
+    color: white;
+}
     
 .formulario{
     display: flex;
@@ -69,7 +96,7 @@ li, a, button {
     height: 75%;
     width: 40%;
     border: black 1px solid;
-    background-color: #000039;
+    background-color: blueviolet;
     border-radius: 20px;
     justify-content: space-evenly;
 }
@@ -98,6 +125,8 @@ button{
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    border: none;
+    font-family: BebasNeue;
 }
 
 button:hover{
