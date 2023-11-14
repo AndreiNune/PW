@@ -26,6 +26,7 @@
         <h1>Alteração de Dados</h1>
         <p>Reescreva o campo que deseja mudar:</p>
         <?php
+        // erro encontrado e arrumado no getId para setId
                 $txtid=$_POST["txtid"];
                 include_once './modelagem e conexção/Produto.php';
                 $p = new Produto();
