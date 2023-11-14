@@ -27,12 +27,13 @@
         <form name= "cliente" method = "POST" action = "alterar2.php">
         
         
-                <b>Digite o ID do produto que você deseja alterar:</b>
+                <p>Digite o ID do produto que você deseja alterar:</p>
 
-
+            <br>
             <br>
             <p> ID: <input name="txtid" type = "text" size = "15" maxlength="5" placeholder = "ID do Produto">
     
+            <br>
             <br>
     
             <legend> <b> Opções: </b> </legend>

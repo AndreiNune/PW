@@ -29,7 +29,7 @@
                 $txtid=$_POST["txtid"];
                 include_once './modelagem e conexção/Produto.php';
                 $p = new Produto();
-                $p->getId($txtid);
+                $p->setId($txtid);
                 $pro_bd=$p->alterar();
         ?>
 
