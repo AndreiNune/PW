@@ -16,10 +16,8 @@
     </header>
 
     <form name= "cliente" method = "POST" action = "">
-        <fieldset id="a">
-            <legend>
                 <b>Dados do Livro</b>
-            </legend>
+        
             <br>
             <p> Código: <input name="txtcod" type = "number" size = "11" maxlength="11">
             <p> Título: <input name="txttitul" type = "text" size = "50">
@@ -28,14 +26,12 @@
             <p> Idioma: <input name="txtidioma" type = "text" size = "30" maxlength="30">
             <p> Qtdepag: <input name="txtqtde" type = "number" size = "11" maxlength = "15"></p>
 
-        </fieldset>
-        <br>
-        <fieldset id="b">
+
+            <br>
             <legend> <b> Opções: </b> </legend>
             <br>
             <input name="btnenviar" type = "submit" value = "Cadastrar"> &nbsp;&nbsp;
             <input name="limpar" type = "reset" value = "Limpar">
-        </fieldset>
 </form>
     <?php
     extract($_POST, EXTR_OVERWRITE);
@@ -65,7 +61,6 @@
     ?>
 
     <br>
-    <center>
 
         <button><a href = "menu.html">  Voltar </a></button>
 

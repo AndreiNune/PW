@@ -5,3 +5,17 @@ function blockw(keypress) {
         return false
     }
 }
+
+window.requestAnimationFrame = function () {
+    return (
+        window.requestAnimationFrame ||
+        window.webkitRequestAnimationFrame||
+        window.mozRequestAnimationFrame ||
+        window.oRequestanimationFrame ||
+        window.msRequestanimationFrame ||
+
+        function (callback) {
+            window.setTimeout(callback);
+        }
+    ); 
+}

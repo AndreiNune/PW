@@ -44,22 +44,12 @@ li, a, button {
     text-align: center;
 }
 
-header{
-    display: block;
-    justify-content: flex;
-    align-items: center;
-    padding: 20px 10%;
-}
-
-nav{
-    justify-content: space-between;
-}
 
 .hud{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100%;
+    height: 100vh;
     justify-content: center;
 }
 
@@ -92,7 +82,8 @@ nav{
 }
 
 .nav{
-    right: 100%;
+    border-bottom: 1px solid black;
+    height: 10%;
 }
 
 .nav_links{
@@ -146,8 +137,7 @@ button:hover{
 }
 
 html {
-    height: 100%;
-    background-color: rgb(121, 121, 121);
+    height: 100vh;
     font-family: 'Dosis', sans-serif ;
     justify-content: center;
 }
