@@ -1,10 +1,12 @@
 <html>
+
 <head>
     <title>Menu</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="ico/iat.ico" type="image/x-icon">
 </head>
+
 <body>
     <header>
         <div class="nav">
@@ -17,28 +19,29 @@
                 </div>
             </ul>
         </div>
-</header>
+    </header>
 
-<!-- Corpo do menu -->
+    <!-- Corpo do menu -->
 
-<div class="hud">
+    <div class="hud">
 
-    <div class="title">
-        <h1>AUTORIA</h1>
+        <div class="title">
+            <h1>AUTORIA</h1>
+        </div>
+
+        <div class="subtitle">
+            <h1>PW - ||</h1>
+        </div>
+
     </div>
-
-    <div class="subtitle">
-        <h1 >PW - ||</h1>
-    </div>
-
-</div>
 
     <div footer>
 
     </div>
     <canvas id="canvas"></canvas>
     <script type="text/javascript" src="./js/script.js"></script>
-<!-- Fim do corpo do menu -->
-    
+    <!-- Fim do corpo do menu -->
+
 </body>
+
 </html>
