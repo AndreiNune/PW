@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Acess</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
 </head>
 
 <body>
@@ -17,9 +18,9 @@
                 <p>Digite os dados do seu Login:</p>
                 <br><br>
 
-                <p>Nome: <input name="txtnome" type="text" size="20" maxlength="20" placeholder="Nome"></p>
+                <p>Nome: <input name="txtnome" type="text" size="20" maxlength="20" placeholder="Digite seu nome aqui!"></p>
                 <br>
-                <p>Senha: <input name="txtsenha" type="text" size="20" maxlength="20" placeholder="Senha"
+                <p>Senha: <input name="txtsenha" type="text" size="20" maxlength="20" placeholder="Digite sua senha aqui!"
                         onkeypress="return blockw(window.event.keyCode)"></p>
                 <br>
                 <input type="submit" name="btnenviar" value="Fazer Login">

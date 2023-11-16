@@ -1,0 +1,27 @@
+.wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    border-radius: 20px;
+    border: 1px solid black;
+    height: 30vh;
+    width: 40vh;
+
+}
+
+.wrapper .formulario h1{
+    margin: 10px;
+}
+
+.wrapper .formulario input[type="text"]{
+    border-radius: 6px;
+    background-color: black;
+}
+
+.formulario form{
+    margin: 10px;
+}
