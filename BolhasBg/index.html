@@ -1,38 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bolhas</title>
     <link rel="stylesheet" href="style.css">
+    <title>Fundo Animado</title>
 </head>
 
 <body>
-    <section>
-        <h2>Bolhas</h2>
-    </section>
-    <script type="text/javascript">
-        function createBolhas() {
-            const section = document.querySelector
-                ('section');
-            const createElement = document.createElement
-                ('span');
-            var size = Math.random() * 60;
-
-            createElement.style.width = 20 + size + 'px';
-            createElement.style.heigth = 20 + size + 'px';
-            createElement.style.left = Math.random() *
-                innerWidth + 'px';
-            section.appendChild(createElement);
-
-            setTimeout(() => {
-                createElement.remove();
-            }, 4000)
-        }
-        setInterval(createBolhas, 50);
-    </script>
-
+    <div class="container">
+        <div class="bolhas">
+            <span style="--i:11"></span>
+            <span style="--i:17"></span>
+            <span style="--i:25"></span>
+            <span style="--i:14"></span>
+            <span style="--i:9"></span>
+            <span style="--i:2"></span>
+            <span style="--i:28"></span>
+            <span style="--i:16"></span>
+            <span style="--i:22"></span>
+            <span style="--i:4"></span>
+            <span style="--i:13"></span>
+            <span style="--i:27"></span>
+            <span style="--i:17"></span>
+            <span style="--i:9"></span>
+            <span style="--i:15"></span>
+            <span style="--i:24"></span>
+            <span style="--i:12"></span>
+            <span style="--i:26"></span>
+            <span style="--i:11"></span>
+            <span style="--i:17"></span>
+            <span style="--i:25"></span>
+            <span style="--i:14"></span>
+            <span style="--i:9"></span>
+            <span style="--i:2"></span>
+            <span style="--i:28"></span>
+            <span style="--i:16"></span>
+            <span style="--i:22"></span>
+            <span style="--i:4"></span>
+            <span style="--i:13"></span>
+            <span style="--i:27"></span>
+            <span style="--i:17"></span>
+            <span style="--i:9"></span>
+            <span style="--i:15"></span>
+            <span style="--i:24"></span>
+            <span style="--i:12"></span>
+            <span style="--i:26"></span>
+            <span style="--i:11"></span>
+            <span style="--i:17"></span>
+            <span style="--i:25"></span>
+            <span style="--i:14"></span>
+            <span style="--i:9"></span>
+            <span style="--i:2"></span>
+        </div>
+    </div>
 </body>
 
 </html>
