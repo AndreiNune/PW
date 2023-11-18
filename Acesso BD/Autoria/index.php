@@ -6,14 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Acess</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
 
 <body>
     <div class="wrapper">
+            <span style="--i:11"></span>
+            <span style="--i:17"></span>
+            <span style="--i:25"></span>
+            <span style="--i:14"></span>
+            <span style="--i:9"></span>
+            <span style="--i:2"></span>
+            <span style="--i:28"></span>
+            <span style="--i:16"></span>
+            <span style="--i:22"></span>
+            <span style="--i:4"></span>
+            <span style="--i:13"></span>
+            <span style="--i:27"></span>
+            <span style="--i:17"></span>
+            <span style="--i:9"></span>
+            <span style="--i:15"></span>
+            <span style="--i:24"></span>
+            <span style="--i:12"></span>
+            <span style="--i:26"></span>
+            <span style="--i:11"></span>
+            <span style="--i:17"></span>
+            <span style="--i:25"></span>
+
         <div class="formulario">
-            <h1>Login</h1>
+
             <form method="POST" action="">
+            <h1>Login</h1>
 
                 <p>Digite os dados do seu Login:</p>
                 <br><br>
@@ -26,7 +49,7 @@
                 <input type="submit" name="btnenviar" value="Fazer Login">
 
             </form>
-
+            
             <?php
 
             extract($_POST, EXTR_OVERWRITE);
@@ -47,7 +70,7 @@
 
                     <br><br>
 
-                    <a href="menu.html"><input type="submit" name="btentrar" value="Entrar"></a>
+                    <a href="menu.php"><input type="submit" name="btentrar" value="Entrar"></a>
 
                     <?php
                 }
@@ -59,7 +82,29 @@
 
             ?>
 
+            
         </div>
+            <span style="--i:14"></span>
+            <span style="--i:9"></span>
+            <span style="--i:2"></span>
+            <span style="--i:28"></span>
+            <span style="--i:16"></span>
+            <span style="--i:22"></span>
+            <span style="--i:4"></span>
+            <span style="--i:13"></span>
+            <span style="--i:27"></span>
+            <span style="--i:17"></span>
+            <span style="--i:9"></span>
+            <span style="--i:15"></span>
+            <span style="--i:24"></span>
+            <span style="--i:12"></span>
+            <span style="--i:26"></span>
+            <span style="--i:11"></span>
+            <span style="--i:17"></span>
+            <span style="--i:25"></span>
+            <span style="--i:14"></span>
+            <span style="--i:9"></span>
+            <span style="--i:2"></span>
     </div>
     <script type="text/javascript" src="./js/script.js"></script>
 </body>

@@ -11,7 +11,7 @@
     <div class="nav">
         <ul class="nav_links">
             <div class="links-item">
-                <il class="nav_links li"><button><a href="menu.html">Principal</a></button></il>
+                <il class="nav_links li"><button><a href="menu.php">Principal</a></button></il>
                 <il class="nav_links li"><button><a href="CAutores.php">Cadastrar</a></button></il>
                 <il class="nav_links li"><button><a href="LAutores.php">Listar</a></button></il>
                 <il class="nav_links li"><button><a href="EAutores.php">Excluir</a></button></il>
