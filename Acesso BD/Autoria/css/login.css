@@ -71,6 +71,8 @@
     background-color: black;
     color: white;
     border: none;
+    margin: 5px;
+    height: 30px;
 }
 
 .wrapper .formulario input[type="submit"]{
@@ -78,6 +80,8 @@
     background-color: black;
     color: white;
     border: none;
+    height: 20px;
+    font-family: horizon;
 }
 
 .formulario form{

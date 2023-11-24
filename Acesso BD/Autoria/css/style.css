@@ -28,7 +28,7 @@
 /* Corpo página */
 
 li, a, button {
-    font-family:'Times New Roman';
+    font-family: horizon;
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
@@ -79,8 +79,9 @@ li, a, button {
 }
 
 .nav{
-    border-bottom: 1px solid black;
+    border: 1px solid white;
     height: 10%;
+    border-radius: 5px;
 }
 
 .nav_links{
@@ -127,6 +128,9 @@ button{
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    box-shadow: 0 0 0 10px #69696444,
+        0 0 50px #f7f7f7,
+        0 0 100px #f7f7f7;
 }
 
 button:hover{
@@ -137,5 +141,6 @@ html {
     height: 100vh;
     font-family: 'Dosis', sans-serif ;
     justify-content: center;
+    background-color: black;
 }
 
