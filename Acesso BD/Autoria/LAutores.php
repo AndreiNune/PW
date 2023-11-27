@@ -7,9 +7,9 @@
 
 <body>
 
-    <div class="alal">
+    <div class="wrapper">
 
-        <div class="pfl">
+        <div class="form">
 
             <?php
 
@@ -40,18 +40,18 @@
 
             }
             ?>
+            <br>
+            <br>
+            <br>
+            <button><a href="menu.php"> Menu </a></button>
+            <button><a href="EAutores.php"> Excluir </a></button>
+            <button><a href="CAutores.php"> Ir ao Cadastro </a></button>
         </div>
+        
     </div>
 
     <br>
     <br>
-
-    <div class="bts">
-        <button><a href="menu.html"> Menu </a></button>
-        <button><a href="EAutores.php"> Excluir </a></button>
-        <button><a href="CAutores.php"> Ir ao Cadastro </a></button>
-    </div>
-
 
 </body>
 

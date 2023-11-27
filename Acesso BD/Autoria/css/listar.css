@@ -36,8 +36,8 @@ body{
     font-family: horizon;
 }
 
-form{
-    border: 1px solid white;
+.form{
+    border: 4px solid white;
     margin: 10px;
     font-family: horizon;
     border-radius: 5px;
@@ -59,47 +59,18 @@ form{
     filter: grayscale(50%);
      transition: .3s;
 }
-form:hover{
+.form:hover{
     --_p: 75%;
     filter: grayscale(0%);
 }
 
-form b{
+.form b{
     margin-top: 10px;
     margin: 10px;
-
-}
-
-form input[type="text"]{
-    width: fit-content;
-    margin: 10px;
-    border-radius: 10px;
-    height: 25px;
-    border: none;
     font-family: horizon;
-    font-size: 12px;
 }
 
-form input[type="number"]{
-    width: fit-content;
-    margin: 10px;
-    border-radius: 10px;
-    border: none;
-    height: 20px;
-    font-family: horizon;
-    font-size: 12px;
-}
-
-form input[type="date"]{
-    width: fit-content;
-    margin: 10px;
-    border-radius: 10px;
-    border: none;
-    font-family: horizon;
-    font-size: 12px;
-}
-
-form input[type="submit"]{
+.form input[type="submit"]{
     color: white;
     font-family: horizon;
     font-size: 10px;
@@ -116,7 +87,7 @@ form input[type="submit"]{
         0 0 40px #f7f7f7;
 }
 
-form input[type="reset"]{
+.form input[type="reset"]{
     color: white;
     font-family: horizon;
     font-size: 10px;

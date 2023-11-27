@@ -2,55 +2,45 @@
 
 <head>
     <title>Excluir</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/formg.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul class="nav__links">
-                <il class="nav_links li"><button><a href="menu.html">Principal</a></button></il>
-                <il class="nav_links li"><button><a href="CAutores.php">Cadastrar</a></button></il>
-                <il class="nav_links li"><button><a href="LAutores.php">Listar</a></button></il>
-            </ul>
-        </nav>
-    </header>
+    <div class="wrapper">
+        <form name="cliente" method="POST" action="">
 
-    <form name="cliente" method="POST" action="">
-        <fieldset id="a">
-            <legend>
-                <b> Informe o código correspondente ao autor desejado: </b>
+
+            <b> Informe o código correspondente ao autor desejado: </b>
+            <br><br>
+            <p> Codigo do Autor: <input name="txtcod" type="text" size="20" maxlength="5" placeholder="Código do Autor:">
                 <br><br>
-                <p> Codigo do Autor: <input name="txtcod" type="text" size="20" maxlength="5"
-                        placeholder="Código do Autor:">
-                    <br><br>
-                    <input name="btnenviar" type="submit" value="Excluir"> &nbsp;&nbsp;
-                    <input name="limpar" type="reset" value="Limpar">
-            </legend>
-            <br>
-        </fieldset>
-        <br>
-    </form>
+                <input name="btnenviar" type="submit" value="Excluir"> &nbsp;&nbsp;
+                <input name="limpar" type="reset" value="Limpar">
+                <br>
 
-    <fieldset>
-        <legend>
-            <b> Resultado: </b>
-        </legend>
+                <br>
 
-        <?php
-        extract($_POST, EXTR_OVERWRITE);
-        if (isset($btnenviar)) {
-            include_once './model&conection/Autores.php';
-            $aut = new Autor();
-            $aut->setCod_autor($txtcod);
-            echo "<h3>" . $aut->excluir() . "<h3>"; //  Chama método -- o $p é o parâmetro enviado
-        
-        }
+                <b> Resultado: </b>
 
-        ?>
 
-    </fieldset>
+                <?php
+                extract($_POST, EXTR_OVERWRITE);
+                if (isset($btnenviar)) {
+                    include_once './model&conection/Autores.php';
+                    $aut = new Autor();
+                    $aut->setCod_autor($txtcod);
+                    echo "<h3>" . $aut->excluir() . "<h3>"; //  Chama método -- o $p é o parâmetro enviado
 
+                }
+
+                ?>
+                <br>
+                <br>
+                <button><a href="menu.php">Principal</a></button>
+                <button><a href="CAutores.php">Cadastrar</a></button>
+                <button><a href="LAutores.php">Listar</a></button>
+        </form>
+    </div>
 </body>
 
 </html>

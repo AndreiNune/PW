@@ -17,7 +17,7 @@
             <b>Dados dos Autores</b>
 
             <br>
-            <p> <input name="txtcod" type="number" size="10" maxlength="40" placeholder="Codigo do autor: ">
+            <p> <input name="txtcod" type="number" size="10" maxlength="40" placeholder="Codigo do autor: "> </p>
             <p> <input name="txtnome" type="text" size="30" placeholder="Nome: "></p>
             <p> <input name="txtsbnome" type="text" size="30" placeholder="Sobrenome: "></p>
             <p> <input name="txtemail" type="text" size="30" placeholder="Email: "></p>
@@ -56,7 +56,7 @@
 
             <br>
 
-            <button><a href="menu.html"> Voltar ao menu</a></button>
+            <button><a href="menu.php"> Voltar ao menu</a></button>
             <button><a href="LAutores.php"> Listagem </a></button>
     </div>
 
