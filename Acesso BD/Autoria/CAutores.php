@@ -55,9 +55,11 @@
             ?>
 
             <br>
-
-            <button><a href="menu.php"> Voltar ao menu</a></button>
-            <button><a href="LAutores.php"> Listagem </a></button>
+            <br>
+            <b>Navegação:</b>
+            <br>
+            <button><a href="Autores.php"> Voltar ao menu Autores</a></button>
+            <button><a href="menu.php"> Menu inícial</a></button>
     </div>
 
 

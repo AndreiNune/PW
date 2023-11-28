@@ -34,10 +34,11 @@
                 }
 
                 ?>
-                <br>
-                <br>
-                <button><a href="menu.php">Principal</a></button>
-                <button><a href="CAutores.php">Cadastrar</a></button>
+                <br><br><br>
+                <b>Navegação:</b>
+                <br><br>
+                <button><a href="menu.php">Menu Principal</a></button>
+                <button><a href="Autores.php">Voltar ao menu Autores</a></button>
                 <button><a href="LAutores.php">Listar</a></button>
         </form>
     </div>

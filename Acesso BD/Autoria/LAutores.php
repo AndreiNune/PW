@@ -43,9 +43,8 @@
             <br>
             <br>
             <br>
-            <button><a href="menu.php"> Menu </a></button>
-            <button><a href="EAutores.php"> Excluir </a></button>
-            <button><a href="CAutores.php"> Ir ao Cadastro </a></button>
+            <button><a href="menu.php"> Menu Principal</a></button>
+            <button><a href="Autores.php">Voltar ao menu Autores</a></button>
         </div>
         
     </div>

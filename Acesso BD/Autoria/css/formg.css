@@ -20,6 +20,9 @@ body{
     width: 100%;
     background-color: black;
     color: white;
+    background-image: url("../PWAutoria/bgAutoria.png") no-repeat bottom center scroll;
+    background-position: 30% 45%;
+    background-size: cover;
 }
 
 
@@ -30,6 +33,7 @@ body{
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    font-family: horizon;
 }
 
 .wrapper h1{
@@ -78,6 +82,17 @@ form input[type="text"]{
     border: none;
     font-family: horizon;
     font-size: 12px;
+}
+
+form input[type="hidden"]{
+    width: fit-content;
+    margin: 10px;
+    border-radius: 10px;
+    height: 25px;
+    border: none;
+    font-family: horizon;
+    font-size: 12px;
+    color: white;
 }
 
 form input[type="number"]{

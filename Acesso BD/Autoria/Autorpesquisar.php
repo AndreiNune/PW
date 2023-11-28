@@ -2,64 +2,59 @@
 
 <head>
     <title>Pesquisar</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/formg.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul class="nav__links">
-                <il class="nav_links li"><button><a href="menu.html">Principal</a></button></il>
-                <il class="nav_links li"><button><a href="./Autores.php">CRUD Autor</a></button></il>
 
-            </ul>
-        </nav>
-    </header>
+    <div class="wrapper">
+        <h1> Pesquisa de Autores Cadastrados</h1>
 
-    <b> Pesquisa de Autores Cadastrados</b>
+        <form name="cliente" method="POST" action="">
 
-    <form name="cliente" method="POST" action="">
+            <b> Informe o nome do autor desejado: </b>
 
-        <b> Informe o nome do autor desejado: </b>
+                <p><input name="txtnome" type="text" size="12" placeholder="Nome:"></p>
+                <br><br>
+                <input type="submit" name="btnenviar" value="Pesquisar">
+                <input type="submit" name="limpar" type="reset" value="Limpar">
 
-        <p>Nome: <input name="txtnome" type="text" size="12" placeholder="">
-            <br><br>
-            <input type="submit" name="btnenviar" value="Pesquisar">
-            <input type="submit" name="limpar" type="reset" value="Limpar">
+                <br>
 
+                <b>Resultado:</b>
 
-            <br>
-
-
-            <legend><b>Resultado:</b></legend>
-
-            <?php
-            extract($_POST, EXTR_OVERWRITE);
-            if (isset($btnenviar)) {
-                include_once './model&conection/Autores.php';
-                $a = new Autor();
-                $a->setNomeAutor($txtnome);
-                $ato_bd = $a->pesquisar();
-                foreach ($ato_bd as $ato_mostrar) {
-                    ?> <br>
-                    <b>
-                        <?php echo "Cod_autor: " . $ato_mostrar[0]; ?> &nbsp;&nbsp;&nbsp;&nbsp;
+                <?php
+                extract($_POST, EXTR_OVERWRITE);
+                if (isset($btnenviar)) {
+                    include_once './model&conection/Autores.php';
+                    $a = new Autor();
+                    $a->setNomeAutor($txtnome);
+                    $ato_bd = $a->pesquisar();
+                    foreach ($ato_bd as $ato_mostrar) {
+                ?> <br>
                         <b>
-                            <?php echo "Nome do Autor: " . $ato_mostrar[1]; ?> &nbsp;&nbsp;&nbsp;&nbsp;
+                            <?php echo "Cod_autor: " . $ato_mostrar[0]; ?> &nbsp;&nbsp;&nbsp;&nbsp;
                             <b>
-                                <?php echo "Sobrenome: " . $ato_mostrar[2]; ?> &nbsp;&nbsp;&nbsp;&nbsp;
+                                <?php echo "Nome do Autor: " . $ato_mostrar[1]; ?> &nbsp;&nbsp;&nbsp;&nbsp;
                                 <b>
-                                    <?php echo "Email: " . $ato_mostrar[3]; ?> &nbsp;&nbsp;&nbsp;&nbsp;
+                                    <?php echo "Sobrenome: " . $ato_mostrar[2]; ?> &nbsp;&nbsp;&nbsp;&nbsp;
                                     <b>
-                                        <?php echo "Nasc: " . $ato_mostrar[4]; ?>
-                                        <?php
-                }
-
-            }
-            ?>
-
-    </form>
-
+                                        <?php echo "Email: " . $ato_mostrar[3]; ?> &nbsp;&nbsp;&nbsp;&nbsp;
+                                        <b>
+                                            <?php echo "Nasc: " . $ato_mostrar[4]; ?>
+                                    <?php
+                                }
+                            }
+                                    ?>
+                                    <br>
+                                    <br>
+                                    <p><b>Navegação:</b>
+                                    <br>
+                                    <button><a href="menu.php">Menu Principal</a></button>
+                                    <br>
+                                    <button><a href="Autores.php">Voltar ao menu Autores</a></button></p>
+        </form>
+    </div>
 </body>
 
 </html>

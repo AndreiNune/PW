@@ -8,7 +8,6 @@
 </head>
 
 <body>
-    <div class="form-menu">
         <div class="nav">
             <ul class="nav_links">
                 <div class="links-item">
@@ -19,7 +18,6 @@
                 </div>
             </ul>
         </div>
-    </header>
 
     <!-- Corpo do menu -->
 
@@ -35,10 +33,6 @@
 
     </div>
 
-    <div footer>
-
-    </div>
-    <canvas id="canvas"></canvas>
     <script type="text/javascript" src="./js/script.js"></script>
     <!-- Fim do corpo do menu -->
 
