@@ -37,10 +37,12 @@ li, a, button {
 
 
 .hud{
+    height: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0;
 }
 
 .title{
@@ -128,20 +130,12 @@ button:hover{
 }
 
 html {
-    height: 100%;
+    height: 100vh;
     font-family: 'Dosis', sans-serif ;
     justify-content: center;
+    margin: 0;
 }
 
 body{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    margin: 0;
-    color: white;
     background-color: black;
-    background-image: url("../PWAutoria/bgAutoria.png");
-    background-position: 30% 45%;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
