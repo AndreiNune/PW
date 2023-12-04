@@ -3,6 +3,7 @@
 <head>
     <title>Listar</title>
     <link rel="stylesheet" href="css/listar.css">
+    <link rel="shortcut icon" href="ico/iat.ico" type="image/x-icon">
 </head>
 
 <body>

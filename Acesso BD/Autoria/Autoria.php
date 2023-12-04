@@ -4,7 +4,7 @@
     <title>Autoria</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="shortcut icon" href="ico/iat.ico" type="image/x-icon">
 </head>
 
 <body>

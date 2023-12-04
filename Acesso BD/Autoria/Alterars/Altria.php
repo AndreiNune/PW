@@ -3,6 +3,7 @@
 <head>
     <title>Alterar</title>
     <link rel="stylesheet" href="../css/formg.css">
+    <link rel="shortcut icon" href="ico/iat.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
 
             <br>
             <br>
-            <p> ID: <input name="txtid" type="text" size="15" maxlength="5" placeholder="Código da Autoria">
+            <p> Código: <input name="txtid" type="text" size="15" maxlength="5" placeholder="Código da Autoria">
 
                 <br>
                 <br>

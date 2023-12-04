@@ -142,11 +142,11 @@ function alterar2(){
     try{
 
         $this-> conn = new Conectar();
-        $sql = $this->conn->prepare("update autoria set Cod_livro = ?, DataLancamento = ?, Editora = ? where Cod_autor = ?");
+        $sql = $this->conn->prepare("update livro set Cod_livro = ?, DataLancamento = ?, Editora = ? where Cod_autor = ?");
         @$sql-> bindParam(1, $this->getCod_livro(), PDO::PARAM_STR);
         @$sql-> bindParam(2, $this->getDataLancamento(), PDO::PARAM_STR);
         @$sql-> bindParam(3, $this->getEditora(), PDO::PARAM_STR);
-        @$sql-> bindParam(3, $this->getCod_autor(), PDO::PARAM_STR);
+        @$sql-> bindParam(4, $this->getCod_autor(), PDO::PARAM_STR);
         if ($sql->execute() == 1) {
             return "Registro alterado com sucesso!";
         }

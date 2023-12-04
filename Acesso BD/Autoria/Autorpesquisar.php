@@ -3,6 +3,7 @@
 <head>
     <title>Pesquisar</title>
     <link rel="stylesheet" href="css/formg.css">
+    <link rel="shortcut icon" href="ico/iat.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -15,12 +16,12 @@
             <b> Informe o nome do autor desejado: </b>
 
                 <p><input name="txtnome" type="text" size="12" placeholder="Nome:"></p>
-                <br><br>
+                <br>
                 <input type="submit" name="btnenviar" value="Pesquisar">
                 <input type="submit" name="limpar" type="reset" value="Limpar">
 
                 <br>
-
+                <br>
                 <b>Resultado:</b>
 
                 <?php

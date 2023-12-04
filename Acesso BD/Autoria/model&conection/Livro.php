@@ -151,8 +151,8 @@ function alterar(){
     try{
 
         $this-> conn = new Conectar();
-        $sql = $this->conn->prepare("select * from produtos where id = ?");
-        @$sql-> bindParam(1, $this->getId(), PDO::PARAM_STR);
+        $sql = $this->conn->prepare("select * from livro where Cod__Livro = ?");
+        @$sql-> bindParam(1, $this->getCod_livro(), PDO::PARAM_STR);
         $sql->execute();
         return $sql->fetchAll();
         $this->conn = null;
@@ -165,10 +165,13 @@ function alterar2(){
     try{
 
         $this-> conn = new Conectar();
-        $sql = $this->conn->prepare("update produtos set nome = ?, estoque = ? where id = ?");
-        @$sql-> bindParam(1, $this->getNome(), PDO::PARAM_STR);
-        @$sql-> bindParam(2, $this->getEstoque(), PDO::PARAM_STR);
-        @$sql-> bindParam(3, $this->getId(), PDO::PARAM_STR);
+        $sql = $this->conn->prepare("update livro set Título = ?, Categoria = ?, ISBN = ?, Idioma = ?, Qtdepag = ? where Cod__Livro = ?");
+        @$sql-> bindParam(1, $this->getTítulo(), PDO::PARAM_STR);
+        @$sql-> bindParam(2, $this->getCategoria(), PDO::PARAM_STR);
+        @$sql-> bindParam(3, $this->getISBN(), PDO::PARAM_STR);
+        @$sql-> bindParam(4, $this->getIdioma(), PDO::PARAM_STR);
+        @$sql-> bindParam(5, $this->getQtdepag(), PDO::PARAM_STR);
+        @$sql-> bindParam(6, $this->getCod_livro(), PDO::PARAM_STR);
         if ($sql->execute() == 1) {
             return "Registro alterado com sucesso!";
         }
