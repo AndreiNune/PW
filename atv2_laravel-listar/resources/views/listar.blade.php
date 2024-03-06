@@ -29,8 +29,9 @@
                         <p class="fs-4 fw-light">Sistema Utilizado para agendamento de serviços.</p>
                     </div>
                 </div>
-                <table class="table table-dark">
+                <table class="table table-dark text-center">
                     <thead>
+                        
                         <tr>
                             <th scope="col">Nome</th>
                             <th scope="col">Telefone</th>
