@@ -31,13 +31,14 @@
                 </div>
                 <table class="table table-dark text-center">
                     <thead>
-                        
                         <tr>
                             <th scope="col">Nome</th>
-                            <th scope="col">Telefone</th>
-                            <th scope="col">Origim</th>
-                            <th scope="col">Data de Contato</th>
-                            <th scope="col">Observação</th>
+                            <th scope="col">Endereço</th>
+                            <th scope="col">Bairro</th>
+                            <th scope="col">CEP</th>
+                            <th scope="col">Cidade</th>
+                            <th scope="col">Estado</th>
+                            <th scope="col">Nação</th>
                         </tr>
                     </thead>
                 </table>
