@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContatoController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,9 +18,9 @@ Route::get('/', [ContatoController::class, "index"]);
 
 Route::get('/adicionar', [ContatoController::class, "adicionar"]);
 
-Route::get('/editar', [ContatoController::class, "editar"]);
+Route::get('/editar/{id}', [ContatoController::class, "editar"]);
 
-Route::get('/atualizar', [ContatoController::class, "atualizar"]);
+Route::get('/atualizar/{id}', [ContatoController::class, "atualizar"]);
 
-Route::get('/excluir', [ContatoController::class, "excluir"]);
+Route::get('/excluir/{id}', [ContatoController::class, "excluir"]);
 
