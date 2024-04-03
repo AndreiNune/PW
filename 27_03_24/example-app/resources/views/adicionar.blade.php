@@ -65,6 +65,33 @@
                 </div>
             </div>
         </div>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Telefone</th>
+                    <th scope="col">Origem</th>
+                    <th scope="col">Data de Contato</th>
+                    <th scope="col">Observação</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (count($contato) > 0)
+                    @foreach ($contato as $cont)
+                    <tr>
+                        <th>{{ $cont->id }}</th>
+                        <th>{{ $cont->nome }}</th>
+                        <th>{{ $cont->telefone }}</th>
+                        <th>{{ $cont->origem }}</th>
+                        <th>{{ $cont->datacontato }}</th>
+                        <th>{{ $cont->obsercacao }}</th>
+                        <th>
+                            <a href="/editar/{{ $cont->id}}" class=""></a>
+                        </th>
+                    </tr>
+            </tbody>
+        </table>
     </div>
 </body>
 

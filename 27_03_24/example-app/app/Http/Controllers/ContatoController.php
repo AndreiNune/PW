@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
 use App\Models\Contato;
 
@@ -11,7 +10,6 @@ class ContatoController extends Controller
         $contato = Contato::all();
         return view('welcome')->with("contato", $contato);
     }
-
     public function adicionar(Request $req){
         $contato = new Contato;
         $contato->nome = $req->nome;
@@ -22,12 +20,10 @@ class ContatoController extends Controller
         $contato->save();
         return redirect()->back();
     }
-
     public function editar($id){
         $contato = Contato::find($id);
         return view('editar')->with("contato", $contato);
     }
-
     public function atualizar(Resquest $req){
         $contato = Contato::find($req->id);
         $contato->update(
